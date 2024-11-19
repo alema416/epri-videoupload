@@ -1,0 +1,14 @@
+path: epri_dataset # dataset root dir
+
+train: [images/circuit2_folder, images/circuit5_folder, images/circuit6_folder, images/circuit7_folder, images/circuit8_folder, images/circuit9_folder]
+val: [images/circuit3_folder, images/circuit4_folder]
+#test: images/circuit2_folder
+
+# Classes
+names:
+  0: crossarm
+  1: cutouts
+  2: insulator
+  3: pole
+  4: transformers
+  5: background_structure

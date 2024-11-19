@@ -1,4 +1,4 @@
-from edgetpumodel EdgeTPUModel
+from edgetpumodel import EdgeTPUModel
 from utils import get_image_tensor
 
 model = EdgeTPUModel("/yolo/edgetpu-yolo/epri-videoupload/best-int8.tflite", "/yolo/edgetpu-yolo/epri-videoupload/custom_epri.yaml")
